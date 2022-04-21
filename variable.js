@@ -7,6 +7,17 @@ var teGustaElCafe = true
 var cantKmRecorridosHoy = 2.3; //Float
 var distanciaMcaminadosHoy = 2300.10
 
+console.log( edadActual );
+console.log( partidosInvictosRacing );
+console.log( nombreJugadorFavoritoCs );
+console.log( comoEstas );
+console.log( tenesFiebre );
+console.log(teGustaElCafe );
+console.log( cantKmRecorridosHoy );
+console.log ( distanciaMcaminadosHoy );
+
+
+
 
 
 document.write(`
