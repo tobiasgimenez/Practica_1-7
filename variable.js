@@ -1,32 +1,32 @@
-var edadActual = 18; //Int
+var miEdadActual = 18; //Int
 var partidosInvictosRacing = 10;
-var nombreJugadorFavoritoCs = "Luken"; // String
-var comoEstas = "Bien, vos?";
+var jugadorFavoritoCsgo = "Luken"; // String
+var respuestaComoEstas = "Bien, vos?";
 var tenesFiebre = false; //Bool
-var teGustaElCafe = true
-var cantKmRecorridosHoy = 2.3; //Float
-var distanciaMcaminadosHoy = 2300.10
+var teGustaElCafe = true;
+var kmRecorridosHoy = 2.3; //Float
+var mtsCaminadosHoy = 2300.00;
 
-console.log( edadActual );
+console.log( miEdadActual );
 console.log( partidosInvictosRacing );
-console.log( nombreJugadorFavoritoCs );
-console.log( comoEstas );
+console.log( jugadorFavoritoCsgo );
+console.log( respuestaComoEstas );
 console.log( tenesFiebre );
 console.log(teGustaElCafe );
-console.log( cantKmRecorridosHoy );
-console.log ( distanciaMcaminadosHoy );
+console.log( kmRecorridosHoy );
+console.log ( mtsCaminadosHoy );
 
 
 
 
 
 document.write(`
-    <h4> Edad actual: ${ edadActual } </h4>
+    <h4> Mi edad actual: ${ miEdadActual } </h4>
     <h4> Partidos invictos de Racing: ${ partidosInvictosRacing } </h4>
-    <h4> Nombre jugador favorito de CS: ${ nombreJugadorFavoritoCs } </h4>
-    <h4> ¿Como estas? ${ comoEstas } </h4>
+    <h4> Jugador favorito de CS: ${ jugadorFavoritoCsgo } </h4>
+    <h4> ¿Como estas? ${ respuestaComoEstas } </h4>
     <h4> Tenes fiebre: ${ tenesFiebre } </h4>
     <h4> Te gusta el cafe: ${ teGustaElCafe } </h4>
-    <h4> Cuantos km recorriste hoy? ${ cantKmRecorridosHoy } </h4>
-    <h4> Distancia de M recorridos hoy? ${ distanciaMcaminadosHoy } </h4>
-`)
+    <h4> Cuantos km recorriste hoy? ${ kmRecorridosHoy } </h4>
+    <h4> Cuantos de Mts caminaste hoy? ${ mtsCaminadosHoy } </h4>
+`);
